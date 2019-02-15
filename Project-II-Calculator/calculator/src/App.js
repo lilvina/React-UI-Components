@@ -1,89 +1,89 @@
 import React from 'react';
-import ActionButton from './components/ButtonComponents/ActionButton';
 import NumberButton from './components/ButtonComponents/NumberButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 import './App.css';
 
 const One = {
-  buttonName: 'btn-number',
+  buttonStyle: 'btn-number',
   text: '1'
 }
 
 const Two = {
-  buttonName: 'btn-number',
+  buttonStyle: 'btn-number',
   text: '2'
 }
 
 const Three = {
-  buttonName: 'btn-number',
+  buttonStyle: 'btn-number',
   text: '3'
 }
 
 const Four = {
-  buttonName: 'btn-number',
+  buttonStyle: 'btn-number',
   text: '4'
 }
 
 const Five = {
-  buttonName: 'btn-number',
+  buttonStyle: 'btn-number',
   text: '5'
 }
 const Six = {
-  buttonName: 'btn-number',
+  buttonStyle: 'btn-number',
   text: '6'
 }
 
 const Seven = {
-  buttonName: 'btn-number',
+  buttonStyle: 'btn-number',
   text: '7'
 }
 
 const Eight = {
-  buttonName: 'btn-number',
+  buttonStyle: 'btn-number',
   text: '8'
 }
 const Nine = {
-  buttonName: 'btn-number',
+  buttonStyle: 'btn-number',
   text: '9'
 }
 
 const Zero = {
-  buttonName: 'btn-number',
+  buttonStyle: 'btn-action',
   text: '0'
 }
 
 const Clear = {
-  buttonName: 'btn-action',
+  buttonStyle: 'btn-action',
   text: 'clear'
 }
 
 const AddButton = {
-  buttonName: "add",
+  buttonStyle: "btn-math",
   text: "+"
 }
 
 const SubstractButton = {
-  buttonName: "substract",
+  buttonStyle: "btn-math",
   text: "-"
 }
 
 const MultiplyButton = {
-  buttonName: "multiply",
+  buttonStyle: "btn-math",
   text: "x"
 }
 
 const DivideButton = {
-  buttonName: "divide",
+  buttonStyle: "btn-math",
   text: "/"
 }
 
 const EqualButton = {
-  buttonName: "equal",
+  buttonStyle: "btn-math",
   text: "="
 }
 
 const DisplayButton = {
-  buttonName: "display",
+  buttonStyle: "btn-display",
   text: "0"
 }
 const App = () => {

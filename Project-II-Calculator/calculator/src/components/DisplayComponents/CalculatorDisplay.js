@@ -7,4 +7,4 @@ const CalculatorDisplay = props => {
   )
 }
 
-export default CalculatorDisplay
+export default CalculatorDisplay;
